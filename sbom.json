@@ -1,0 +1,397 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-09-22T15:14:46.851Z",
+    "tools": [
+      {
+        "vendor": "xiaopeng-toolbox",
+        "name": "generate-sbom.mjs",
+        "version": "1.0.0"
+      }
+    ],
+    "component": {
+      "type": "application",
+      "name": "xiaopeng-toolbox",
+      "version": "1.0.0",
+      "purl": "pkg:npm/xiaopeng-toolbox@1.0.0"
+    }
+  },
+  "components": [
+    {
+      "type": "library",
+      "name": "@eslint/js",
+      "version": "9.39.5",
+      "purl": "pkg:npm/@eslint/js@9.39.5",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://eslint.org"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "@types/better-sqlite3",
+      "version": "9.6.0",
+      "purl": "pkg:npm/@types/better-sqlite3@9.6.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/better-sqlite3"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "@types/node",
+      "version": "22.20.1",
+      "purl": "pkg:npm/@types/node@22.20.1",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/node"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "@vitejs/plugin-vue",
+      "version": "5.2.4",
+      "purl": "pkg:npm/@vitejs/plugin-vue@5.2.4",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/vitejs/vite-plugin-vue/tree/main/packages/plugin-vue#readme"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "better-sqlite3",
+      "version": "13.0.3",
+      "purl": "pkg:npm/better-sqlite3@13.0.3",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "http://github.com/WiseLibs/better-sqlite3"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "electron",
+      "version": "33.4.11",
+      "purl": "pkg:npm/electron@33.4.11",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "electron-builder",
+      "version": "25.1.8",
+      "purl": "pkg:npm/electron-builder@25.1.8",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/electron-userland/electron-builder"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "electron-vite",
+      "version": "2.3.0",
+      "purl": "pkg:npm/electron-vite@2.3.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://electron-vite.org"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "eslint",
+      "version": "9.39.5",
+      "purl": "pkg:npm/eslint@9.39.5",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://eslint.org"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "eslint-plugin-vue",
+      "version": "9.33.0",
+      "purl": "pkg:npm/eslint-plugin-vue@9.33.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://eslint.vuejs.org"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "pinia",
+      "version": "2.3.1",
+      "purl": "pkg:npm/pinia@2.3.1",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/vuejs/pinia#readme"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "pinyin-pro",
+      "version": "3.29.3",
+      "purl": "pkg:npm/pinyin-pro@3.29.3",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://pinyin-pro.cn"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "prettier",
+      "version": "3.9.6",
+      "purl": "pkg:npm/prettier@3.9.6",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://prettier.io"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "systeminformation",
+      "version": "5.33.1",
+      "purl": "pkg:npm/systeminformation@5.33.1",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://systeminformation.io"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "typescript",
+      "version": "5.9.3",
+      "purl": "pkg:npm/typescript@5.9.3",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://www.typescriptlang.org/"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "typescript-eslint",
+      "version": "8.68.0",
+      "purl": "pkg:npm/typescript-eslint@8.68.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://typescript-eslint.io/packages/typescript-eslint"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "vite",
+      "version": "5.4.21",
+      "purl": "pkg:npm/vite@5.4.21",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://vite.dev"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "vue",
+      "version": "3.5.41",
+      "purl": "pkg:npm/vue@3.5.41",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://vuejs.org/"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "vue-eslint-parser",
+      "version": "9.4.3",
+      "purl": "pkg:npm/vue-eslint-parser@9.4.3",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/vuejs/vue-eslint-parser#readme"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "vue-tsc",
+      "version": "2.2.12",
+      "purl": "pkg:npm/vue-tsc@2.2.12",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/vuejs/language-tools.git"
+        }
+      ]
+    }
+  ]
+}

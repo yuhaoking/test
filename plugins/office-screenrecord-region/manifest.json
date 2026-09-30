@@ -1,0 +1,12 @@
+{
+  "id": "com.office.screenrecord.region",
+  "name": "区域录制",
+  "version": "1.0.0",
+  "author": "小鹏工具箱",
+  "description": "拖动选择屏幕区域后录制为 MP4（无声），支持设置时长。",
+  "category": "录屏",
+  "type": "module",
+  "entry": "main.py",
+  "icon": "icon.png",
+  "permissions": []
+}

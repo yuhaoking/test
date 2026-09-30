@@ -1,0 +1,12 @@
+{
+  "id": "com.office.screenshot.window",
+  "name": "窗口截图",
+  "version": "1.0.0",
+  "author": "小鹏工具箱",
+  "description": "截取当前前台窗口（激活的窗口）并保存到图片目录。",
+  "category": "截图",
+  "type": "module",
+  "entry": "main.py",
+  "icon": "icon.png",
+  "permissions": []
+}

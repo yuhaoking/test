@@ -1,0 +1,12 @@
+{
+  "id": "com.office.convert.all",
+  "name": "万能格式转换",
+  "version": "1.0.0",
+  "author": "小鹏工具箱",
+  "description": "参考 FlyingMouse Format 能力：图片互转、文档转PDF、PDF提取/合并、音视频转换、文本编码互转、OCR，自动检测系统已安装的 FFmpeg/LibreOffice/Pandoc/Poppler/Tesseract 引擎。",
+  "category": "转换",
+  "type": "module",
+  "entry": "main.py",
+  "icon": "icon.png",
+  "permissions": []
+}

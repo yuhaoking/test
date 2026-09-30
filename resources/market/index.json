@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "generatedAt": "2026-09-22",
+  "items": [
+    {
+      "id": "com.example.command-tool",
+      "name": "示例命令插件",
+      "version": "1.0.0",
+      "author": "小鹏工具箱",
+      "description": "插件市场示例：安装后向全局命令面板注册“问好 / 当前时间 / 写入记事本”三条命令（PM-03 commands 协议验收用）。",
+      "category": "示例",
+      "type": "module",
+      "url": "builtin://com.example.command-tool",
+      "verified": true,
+      "downloads": 0,
+      "updatedAt": "2026-09-22",
+      "permissions": []
+    }
+  ]
+}

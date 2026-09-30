@@ -1,0 +1,11 @@
+{
+  "id": "com.example.pet",
+  "name": "示例宠物插件",
+  "version": "1.0.0",
+  "author": "小鹏",
+  "description": "宠物插件示例：注册可播放动作，宠物被单击时收到 pet.play_action 指令。",
+  "type": "pet",
+  "entry": "main.py",
+  "icon": "icon.png",
+  "permissions": []
+}

@@ -1,0 +1,51 @@
+appId: com.xiaopeng.toolbox
+productName: 小鹏工具箱
+directories:
+  output: dist
+  buildResources: build
+files:
+  - out/**
+  - package.json
+extraResources:
+  - from: resources
+    to: resources
+  - from: plugins
+    to: plugins
+  - from: engines/python
+    to: engines/python
+    filter:
+      - '**/*'
+asar: true
+# 不自动重建原生模块：better-sqlite3 的 Electron ABI 二进制需 VS 工具链编译，
+# 无工具链机器用 node-gyp 重建会失败；运行时已有 ABI 探针，不兼容时自动回退 JSON 后端。
+npmRebuild: false
+#
+# Electron 运行时分发源：指向 npmmirror。
+#
+# 为什么必须显式指定：electron-builder 有**自己**的缓存目录（electron-builder/Cache），
+# 与 npm 安装 electron 时用的 @electron/get 缓存**不共享**。于是会出现这种很坑的现象 ——
+# `npm install` 明明已经下载并校验过 electron-v39.8.10-win32-x64.zip，打包时却**又去 GitHub 下一遍**；
+# 在 GitHub 不可达/限速的环境里直接卡死，实测 21KB/s、10 分钟后失败：
+#   Downloading electron-v39.8.10-win32-x64.zip: 27% ⨯ Timeout awaiting 'request' for 600000ms
+# 以及直接连接超时：connect ETIMEDOUT 20.205.243.166:443（github.com）。
+#
+# 镜像只是**换下载源**，zip 仍按官方 checksums 做完整性校验（@electron/get 内置），
+# 校验不过就会重新下载，不会因为换源而降低强度。
+# 官方源可达的环境可整段删掉，或改成复用本机已有的 @electron/get 缓存：
+#   electronDownload:
+#     cache: D:/Users/<你>/AppData/Local/electron/Cache   # 注意必须是绝对路径，${env.*} 不会展开
+electronDownload:
+  mirror: https://registry.npmmirror.com/-/binary/electron/
+win:
+  target:
+    - nsis
+  icon: build/icon.ico
+  # 无签名需求：跳过 EXE 签名/资源编辑（winCodeSign 工具下载依赖 GitHub，
+  # 大陆网络被墙时会导致打包中断；README 已记录该方案）
+  signAndEditExecutable: false
+nsis:
+  oneClick: false
+  allowToChangeInstallationDirectory: true
+  createDesktopShortcut: true
+  createStartMenuShortcut: true
+  shortcutName: 小鹏工具箱

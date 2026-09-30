@@ -1,0 +1,37 @@
+:root {
+  --radius: 14px;
+  --radius-sm: 8px;
+  --font: 'Segoe UI', 'Microsoft YaHei', system-ui, sans-serif;
+}
+
+[data-theme='dark'] {
+  color-scheme: dark;
+  --bg: rgba(24, 26, 34, 0.72);
+  --bg-solid: #181a22;
+  --bg-card: rgba(255, 255, 255, 0.06);
+  --bg-hover: rgba(255, 255, 255, 0.1);
+  --border: rgba(255, 255, 255, 0.09);
+  --text: #e8eaf0;
+  --text-dim: #9aa0b0;
+  --accent: #5b8cff;
+  --accent-text: #ffffff;
+  --danger: #ff5c5c;
+  --success: #3ecf8e;
+  --shadow: 0 8px 32px rgba(0, 0, 0, 0.45);
+}
+
+[data-theme='light'] {
+  color-scheme: light;
+  --bg: rgba(255, 255, 255, 0.78);
+  --bg-solid: #f7f8fa;
+  --bg-card: rgba(0, 0, 0, 0.045);
+  --bg-hover: rgba(0, 0, 0, 0.08);
+  --border: rgba(0, 0, 0, 0.1);
+  --text: #23262e;
+  --text-dim: #6b7280;
+  --accent: #3b6ef6;
+  --accent-text: #ffffff;
+  --danger: #e5484d;
+  --success: #189e5c;
+  --shadow: 0 8px 32px rgba(31, 38, 60, 0.18);
+}

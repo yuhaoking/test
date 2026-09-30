@@ -1,0 +1,12 @@
+{
+  "id": "com.office.screenshot.delay",
+  "name": "延时截图",
+  "version": "1.0.0",
+  "author": "小鹏工具箱",
+  "description": "设置倒计时后自动全屏截图，适合截图菜单弹层。",
+  "category": "截图",
+  "type": "module",
+  "entry": "main.py",
+  "icon": "icon.png",
+  "permissions": []
+}

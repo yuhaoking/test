@@ -1,0 +1,15 @@
+{
+  "id": "com.office.deepseek.monitor",
+  "name": "AI 用量管家（DeepSeek）",
+  "version": "2.0.0",
+  "author": "小鹏工具箱",
+  "description": "AI 用量管家：实时查看 DeepSeek API 余额与本地任务状态，任务完成/余额不足经桌宠播报（可语音朗读），支持一键用量简报。",
+  "category": "工具",
+  "type": "module",
+  "entry": "main.py",
+  "icon": "icon.png",
+  "permissions": [],
+  "commands": [
+    { "id": "report", "title": "AI 用量播报", "keywords": ["余额", "用量", "deepseek", "管家"] }
+  ]
+}

@@ -1,0 +1,16 @@
+node_modules/
+out/
+dist/
+release/
+.npm-cache/
+.builder-cache/
+.build-tmp/
+engines/
+dist-*/
+resources/engines/
+build-log*.txt
+*.log
+.DS_Store
+__pycache__/
+*.pyc
+*.pyo

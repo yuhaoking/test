@@ -1,0 +1,12 @@
+{
+  "id": "com.office.translate.any",
+  "name": "多语言翻译",
+  "version": "1.0.0",
+  "author": "小鹏工具箱",
+  "description": "把任意文本翻译成中、英、日、韩、法、葡、俄、西等目标语言。",
+  "category": "翻译",
+  "type": "module",
+  "entry": "main.py",
+  "icon": "icon.png",
+  "permissions": []
+}

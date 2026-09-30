@@ -1,0 +1,12 @@
+{
+  "id": "com.office.screenshot.full",
+  "name": "全屏截图",
+  "version": "1.0.0",
+  "author": "小鹏工具箱",
+  "description": "一键截取整个屏幕，保存到 Windows 图片目录。",
+  "category": "截图",
+  "type": "module",
+  "entry": "main.py",
+  "icon": "icon.png",
+  "permissions": []
+}

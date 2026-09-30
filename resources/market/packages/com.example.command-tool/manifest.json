@@ -1,0 +1,17 @@
+{
+  "id": "com.example.command-tool",
+  "name": "示例命令插件",
+  "version": "1.0.0",
+  "author": "小鹏工具箱",
+  "description": "插件市场示例：注册“问好 / 当前时间 / 写入记事本”命令到全局命令面板（PM-03 commands 协议）。",
+  "category": "示例",
+  "type": "module",
+  "entry": "main.py",
+  "icon": "icon.png",
+  "permissions": [],
+  "commands": [
+    { "id": "hello", "title": "示例：问好", "keywords": ["hello", "wenhao", "nihao"] },
+    { "id": "time", "title": "示例：显示当前时间", "keywords": ["time", "shijian", "clock"] },
+    { "id": "note", "title": "示例：写入记事本文件", "keywords": ["note", "jishi", "wenjian"] }
+  ]
+}

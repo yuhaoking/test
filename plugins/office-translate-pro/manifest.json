@@ -1,0 +1,12 @@
+{
+  "id": "com.office.translate.pro",
+  "name": "聚合翻译",
+  "version": "1.0.0",
+  "author": "小鹏工具箱",
+  "description": "参考 GitHub 项目 UlionTse/translators（翻译官）实现：聚合 Bing/阿里/有道免费引擎，自动分段翻译长句长文与文本文件（UTF-8/GBK），无需 API Key。",
+  "category": "翻译",
+  "type": "module",
+  "entry": "main.py",
+  "icon": "icon.png",
+  "permissions": []
+}

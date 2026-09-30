@@ -1,0 +1,52 @@
+{
+  "name": "xiaopeng-toolbox",
+  "version": "2.1.0",
+  "description": "小鹏工具箱 - 桌面工具集合",
+  "main": "./out/main/index.js",
+  "author": "xiaopeng",
+  "license": "MIT",
+  "homepage": "https://github.com/xiaopeng/toolbox",
+  "scripts": {
+    "dev": "electron-vite dev",
+    "build": "electron-vite build",
+    "start": "electron-vite preview",
+    "typecheck": "vue-tsc --noEmit",
+    "lint": "eslint .",
+    "format": "prettier --write \"{electron,src,shared,scripts}/**/*.{ts,vue,mjs,js,css,json}\" \"*.{ts,mjs,js,json}\"",
+    "assets": "node scripts/generate-assets.mjs",
+    "icons": "node scripts/generate-plugin-icons.mjs",
+    "setup-python": "node scripts/setup-python.mjs",
+    "sbom": "node scripts/generate-sbom.mjs",
+    "dist": "npm run setup-python && npm run build && node scripts/prepare-dist.mjs && electron-builder && node scripts/stamp-exe.mjs && npm run dist:verify",
+    "dist:verify": "node scripts/verify-dist.mjs",
+    "dist:stamp": "node scripts/stamp-exe.mjs",
+    "test": "node --disable-warning=MODULE_TYPELESS_PACKAGE_JSON scripts/test.mjs",
+    "smoke": "node scripts/run-smoke.mjs",
+    "bench": "node scripts/run-bench.mjs",
+    "i18n": "node scripts/i18n-coverage.mjs"
+  },
+  "dependencies": {
+    "better-sqlite3": "^13.0.3",
+    "pinyin-pro": "^3.26.0",
+    "systeminformation": "^5.23.5"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.5",
+    "@types/better-sqlite3": "^9.6.0",
+    "@types/node": "^22.10.0",
+    "@vitejs/plugin-vue": "^5.2.1",
+    "electron": "^33.4.11",
+    "electron-builder": "^26.15.3",
+    "electron-vite": "^2.3.0",
+    "eslint": "^9.39.5",
+    "eslint-plugin-vue": "^9.33.0",
+    "pinia": "^2.2.6",
+    "prettier": "^3.9.6",
+    "typescript": "^5.6.3",
+    "typescript-eslint": "^8.68.0",
+    "vite": "^5.4.11",
+    "vue": "^3.5.13",
+    "vue-eslint-parser": "^9.4.3",
+    "vue-tsc": "^2.1.10"
+  }
+}

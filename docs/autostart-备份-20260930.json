@@ -1,0 +1,11 @@
+﻿{
+    "cloudmusic":  "\"D:\\CloudMusic\\cloudmusic.exe\" --orpheus-startup=autorun",
+    "Steam":  "\"D:\\steam\\steam.exe\" -silent",
+    "douyinTray":  "D:\\douyin\\douyin.exe --start_type=autorun",
+    "doubao":  "\"D:\\豆包\\Doubao\\Doubao.exe\" --launch_from=auto_run",
+    "com.xiaopeng.toolbox":  "D:\\mimo小鹏工具箱\\dist\\win-unpacked\\小鹏工具箱.exe",
+    "OneDrive":  "\"C:\\Program Files\\Microsoft OneDrive\\OneDrive.exe\" /background",
+    "QQMusic":  "\"D:\\\\QQMusic\\QQMusic.exe\" /background",
+    "electron.app.Electron":  "D:\\小鹏工具箱\\dist\\win-unpacked\\小鹏工具箱.exe",
+    "MicrosoftEdgeAutoLaunch_53B67CD9D752D0758EDA1ECAF8B5AF83":  "\"C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe\" --no-startup-window --win-session-start"
+}

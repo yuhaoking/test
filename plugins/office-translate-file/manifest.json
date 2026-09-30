@@ -1,0 +1,12 @@
+{
+  "id": "com.office.translate.file",
+  "name": "批量翻译文件",
+  "version": "1.0.0",
+  "author": "小鹏工具箱",
+  "description": "逐行翻译文本文件（UTF-8），结果保存为 _translated.txt，完成后面板通知。",
+  "category": "翻译",
+  "type": "module",
+  "entry": "main.py",
+  "icon": "icon.png",
+  "permissions": []
+}
